@@ -141,17 +141,17 @@
 
 }
 
-@media screen and (min-aspect-ratio: 16/9) {
-    .botoes {
-        gap: 60px;
-    }
-
-    .botoes .botao img {
-        width: 150px;
-    }
-
+@media (min-width: 1700px) and (min-height: 900px){
     .conteudo {
-        max-width: 700px;
+        max-width: 600px;
+    }
+
+    .conteudo .nome-personagem  {
+        font-size: 3vw;
+    }
+
+    .conteudo .descricao {
+        font-size: 1.2vw;
     }
 
     .conteudo .logo {
@@ -159,13 +159,11 @@
         height: 200px;
     }
 
-    .conteudo .nome-personagem {
-        font-size: 5em;
+    .botoes .botao img {
+        width: 100px;
     }
 
-    .conteudo .descricao {
-        font-size: 2em;
-        line-height: 32px;
+    .botoes {
+        gap: 1.5vw;
     }
-
 }
