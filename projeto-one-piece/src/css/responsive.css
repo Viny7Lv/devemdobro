@@ -140,3 +140,32 @@
     }
 
 }
+
+@media screen and (min-aspect-ratio: 16/9) {
+    .botoes {
+        gap: 60px;
+    }
+
+    .botoes .botao img {
+        width: 150px;
+    }
+
+    .conteudo {
+        max-width: 700px;
+    }
+
+    .conteudo .logo {
+        width: 360px;
+        height: 200px;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 5em;
+    }
+
+    .conteudo .descricao {
+        font-size: 2em;
+        line-height: 32px;
+    }
+
+}
