@@ -76,7 +76,7 @@
 @media (max-height: 500px) {
     .botoes .botao img{
         background: linear-gradient(-233deg, #00000000 20%, rgba(0, 0, 0, 0) 20%) no-repeat;
-        max-width: 12vh;
+        max-width: 14vh;
     }
 
     .conteudo{
@@ -94,7 +94,6 @@
     }
 
     .botoes {
-        padding-bottom: 35px;
         position: fixed;
         top: 0;
         right: 0;
@@ -129,5 +128,15 @@
 
     .conteudo .descricao{
         font-size: 14px;
+        background-image: linear-gradient(to left, #00000238, transparent);
+        border-radius: 7px;
     }
+}
+
+@media (max-height: 350px) {
+    .conteudo .logo {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
 }
