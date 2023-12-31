@@ -141,7 +141,7 @@
 
 }
 
-@media (min-width: 1700px) and (min-height: 900px){
+@media (min-width: 1700px) and (min-height: 700px){
     .conteudo {
         max-width: 600px;
     }
@@ -164,6 +164,6 @@
     }
 
     .botoes {
-        gap: 240px;
+        gap: 60px;
     }
 }
